@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Glam Studio AI",
+    "slug": "ai-video-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "glamstudio",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#080612"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.glamstudio.aivideo"
+    },
+    "android": {
+      "package": "com.glamstudio.aivideo",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#080612"
+      }
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#080612",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200
+        }
+      ],
+      "expo-secure-store",
+      "expo-localization",
+      "expo-font",
+      "expo-video"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "7df3009b-20b9-4fac-8fd9-5b16b86b3a96"
+      }
+    }
+  }
+}
